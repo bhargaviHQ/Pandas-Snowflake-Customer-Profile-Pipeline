@@ -1,0 +1,9 @@
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - matplotlib=*
+  - modin=0.28.1
+  - seaborn=*
+  - snowflake=*
+  - snowflake-snowpark-python=1.22.1
